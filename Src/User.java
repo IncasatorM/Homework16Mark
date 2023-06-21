@@ -31,7 +31,7 @@ public class User {
             }
 
             void display() {
-                System.out.printf("Account Login: %s \t Password: %s \n", login, password);
+                System.out.printf("Account Login successful!: %s \t Password: %s \n", login, password);
             }
         }
         Account account = new Account();
